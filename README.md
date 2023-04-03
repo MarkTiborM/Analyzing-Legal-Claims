@@ -19,7 +19,7 @@ Create Visualizations of the Number of Claims to Each Location, Distribution of 
 
 ## The Data 
 ### Let's Take Quick Look at the Columns
-Before Going in and Attempting to tweak and edit the Data let's look at if it coalines with what the Company understands so far.
+Before Going in and Attempting to tweak and edit the Data, let's check if it is true with what the Company understands so far.
 After checking each piece of Data I compiled a checklist of whether or not they got their own analysis right.
 
 ![Checks](https://user-images.githubusercontent.com/129571496/229391523-90eaeae0-2faa-43ba-a588-186e1dfcad76.PNG)
