@@ -12,11 +12,11 @@ takes to close claims.
 ## Overview
 ---
 
-### **This Report gives a Visualization and Analysis of Four Legal Teams in Charge of Claims from the Brazilian Fast Food Chain Vivendo, I would like to solve these Tasks Carefully :**
+### **This Report gives a Visualization and Analysis of Four Legal Teams in Charge of Claims from the Brazilian Fast Food Chain Vivendo, I would like to create answers to the following tasks :**
 
-Is their Data Correct to their own Analysis of each Description?
-Create Visualizations of the Number of Claims to Each Location, Distribution of Time to close for all claims, and the Relationship between Time to Close and Location
-Create a concrete Conclusion of the analysis to give potential investigative opportunities to the company to see if their is a correlation between the locations
+1.) Create a checklist of null/uninterpretable data to give their dataframe a thorough analysis
+2.) Create Visualizations of the Number of Claims to Each Location, Distribution of Time to close for all claims, and the Relationship between Time to Close and Location
+3.) Create a concrete Conclusion of the analysis to give potential investigative opportunities to the company to see if their is a correlation between the locations
 
 ## The Data 
 ### Let's Take Quick Look at the Columns
@@ -25,7 +25,6 @@ Lets check to see if their initial preliminary analysis is true. We will do this
 I will use a checklist to describe whether or not their own analysis is correct.
 
 ![Checks](https://user-images.githubusercontent.com/129571496/229391523-90eaeae0-2faa-43ba-a588-186e1dfcad76.PNG)
-
 ### This is the Full Diagnosis to check the Data Set for Matching the Description
 ![Columns](https://user-images.githubusercontent.com/129571496/229391705-3df19c76-9667-4cc3-9cc1-e8c8e52ca754.PNG)
 
