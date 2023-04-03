@@ -24,6 +24,27 @@ The company has provided their own understanding of what is missing/problems wit
 Lets check to see if their initial preliminary analysis is true. We will do this before we go in and attempt to extract Data to see if we need any corrections. 
 I will use a checklist to describe whether or not their own analysis is correct.
 
+
+
+# read in the data as a pandas dataframe
+import pandas as pd
+
+df = pd.read_csv("your_file.csv")
+
+# check for missing values in each column
+
+    for col in df.columns:
+
+    num_missing = df[col].isnull().sum()
+    
+    if num_missing > 0:
+    
+        print(f"{col} has {num_missing} missing values.")
+        
+    else:
+    
+        print(f"{col} has no missing values.")
+        
 ![Checks](https://user-images.githubusercontent.com/129571496/229391523-90eaeae0-2faa-43ba-a588-186e1dfcad76.PNG)
 ### This is the Full Diagnosis to check the Data Set for Matching the Description
 ![Columns](https://user-images.githubusercontent.com/129571496/229391705-3df19c76-9667-4cc3-9cc1-e8c8e52ca754.PNG)
