@@ -1,6 +1,6 @@
 # Business Analysis Simulation
 
-## Background 
+## Background Information Provided
 ---
 Vivendo is a fast food chain in Brazil with over 200 outlets.
 Customers often claim compensation from the company for food poisoning.
@@ -12,22 +12,24 @@ takes to close claims.
 ## Overview
 ---
 
-### **This Report gives a Visualization and Analysis of Four Legal Teams in Charge of Claims from the Brazilian Fast Food Chain Vivendo, I would like to Solve these Tasks Carefully :**
+### **This Report gives a Visualization and Analysis of Four Legal Teams in Charge of Claims from the Brazilian Fast Food Chain Vivendo, I would like to solve these Tasks Carefully :**
 
 Is their Data Correct to their own Analysis of each Description?
 Create Visualizations of the Number of Claims to Each Location, Distribution of Time to close for all claims, and the Relationship between Time to Close and Location
+Create a concrete Conclusion of the analysis to give potential investigative opportunities to the company to see if their is a correlation between the locations
 
 ## The Data 
 ### Let's Take Quick Look at the Columns
-Before Going in and Attempting to tweak and edit the Data, let's check if it is true with what the Company understands so far.
-After checking each piece of Data I compiled a checklist of whether or not they got their own analysis right.
+The company has provided their own understanding of what is missing/problems with the dataframe.
+Lets check to see if their initial preliminary analysis is true. We will do this before we go in and attempt to extract Data to see if we need any corrections. 
+I will use a checklist to describe whether or not their own analysis is correct.
 
 ![Checks](https://user-images.githubusercontent.com/129571496/229391523-90eaeae0-2faa-43ba-a588-186e1dfcad76.PNG)
 
 ### This is the Full Diagnosis to check the Data Set for Matching the Description
 ![Columns](https://user-images.githubusercontent.com/129571496/229391705-3df19c76-9667-4cc3-9cc1-e8c8e52ca754.PNG)
 
-After Looking at our Data, we can see there are some missing values. I am going to Filter which Columns I will use, and round columns claim_amount and amount_paid so we can make the Description Accurate. Additionally, I will make it so both claim_amount and amount_paid are concurrently updated by utilizing a repeating if else function until we reach a null to have Continuous Updates of Information
+After Looking at our Data, we can see there are some missing values. I am going to filter which columns I will use, and round columns claim_amount and amount_paid so we can make the description Accurate. Additionally, I will make it so both claim_amount and amount_paid are concurrently updated by utilizing a repeating if else function until we reach a null to have continuous updates of information
 # Visualization for Number of Claims to Each Location
 ---
 ![output-3](https://user-images.githubusercontent.com/129571496/229392014-eb3a6a7f-c080-4452-9c44-e675ff3575f5.jpg)
