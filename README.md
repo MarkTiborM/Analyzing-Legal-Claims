@@ -12,7 +12,7 @@ takes to close claims.
 ## Overview
 ---
 
-### **This Report gives a Visualization and Analysis of Four Legal Teams in Charge of Claims from the Brazilian Fast Food Chain Vivendo, I would like to create answers to the following tasks :**
+### **This Report gives a Visualization and Analysis of Four Legal Teams in Charge of Claims from the Brazilian Fast Food Chain Vivendo, they would like me to do the following:**
 
 1.) Create a checklist of null/uninterpretable data to give their dataframe a thorough analysis
 2.) Create Visualizations of the Number of Claims to Each Location, Distribution of Time to close for all claims, and the Relationship between Time to Close and Location
