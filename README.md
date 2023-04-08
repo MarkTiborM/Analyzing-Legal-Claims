@@ -20,11 +20,40 @@ takes to close claims.
 
 3.) Create a concrete Conclusion of the analysis to give potential investigative opportunities to the company to see if their is a correlation between the locations
 
-## The Data 
-### Let's Take Quick Look at the Columns
-The company has provided their own understanding of what is missing/problems with the dataframe.
-Lets check to see if their initial preliminary analysis is true. We will do this before we go in and attempt to extract Data to see if we need any corrections. 
-I will use a checklist to describe whether or not their own analysis is correct.
+DATA VALIDATION :
+Data Checks :
+1.) claim_id:
+The values are integers, matching the description provided.There are 2000 non-null values, indicating that there are no missing values in this column.
+
+2.) time_to_close:
+The values are integers, matching the description provided. There are 2000 non-null values, indicating that there are no missing values in this column.
+
+3.) claim_amount:
+The values are objects, matching the descritpion as Brazilian currency, beginning with R$.There are 2000 non-null values, indicating that there are no missing values in this column.
+
+4.) amount_paid:
+The values are floats, matching the description provided. There are 1964 non-null values, indicating that there are 36 missing values in this column. To address the missing values, I replaced the missing values with the overall median amount paid as specified in the requirements.
+
+5.) location:
+The values are objects, matching the description provided. There are 2000 non-null values, indicating that there are no missing values in this column.
+
+6.) individuals_on_claim:
+The values are integers, matching the description provided. There are 2000 non-null values, indicating that there are no missing values in this column.
+
+7.) linked_cases:
+The values are objects, matching the description provided. There are 1974 non-null values, indicating that there are 26 missing values in this column. I replaced the missing bools with FALSE as specified in the requirements.
+
+8.) cause:
+The values are objects, matching the description provided. There are 2000 non-null values, indicating that there are no missing values in this column.
+
+Data Description :
+The original data is 2000 rows and 8 columns. The first thing I did was remove the missing values for location, replaced the missing values with zero for individuals_on_claim, replaced missing values with FALSE for linked_cases, and then replaced missing values with 'unknown' for cause. To ensure we have an accurate description of the columns, I finally replaced the missing values with the overall median amount paid for amount_paid.
+
+After cleaning and processing the data, here are some key findings:
+There are 0 duplicated rows as expected. For the amount_paid column, there are only 1964 observations, indicating 36 missing values. The range of values goes from 1516.72 to 52498.75 Brazilian Real (BRL). The mean amount paid is 21541.975183 BRL, with a standard deviation of 12530.156509 BRL. For the individuals_on_claim column, there are 2000 observations, and the range of values goes from 1 to 15. The mean number of individuals on each claim is 8.0495, with a standard deviation of 4.087347. For the claim_id column, there are 2000 observations, and the range of values goes from 1 to 2000. For the time_to_close column, there are also 2000 observations, and the range of values goes from 76 to 518. The mean (average) time to close is 185.568 days, with a standard deviation of 49.163 days.
+
+Wrap Up
+After performing Exploritary Data Analysis drafting (creating histograms) I can assume that the data has little to no limitations for creating the plots after cleaning and validation.
 
 
 
