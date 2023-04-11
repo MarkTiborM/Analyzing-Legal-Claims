@@ -62,7 +62,7 @@ import pandas as pd
 
 df = pd.read_csv("your_file.csv")
 
-# check for missing values in each column
+# this code checks for missing values in each column
 
     for col in df.columns:
 
