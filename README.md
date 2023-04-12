@@ -53,6 +53,7 @@ After cleaning and processing the data, here are some key findings:
 There are 0 duplicated rows as expected. For the amount_paid column, there are only 1964 observations, indicating 36 missing values. The range of values goes from 1516.72 to 52498.75 Brazilian Real (BRL). The mean amount paid is 21541.975183 BRL, with a standard deviation of 12530.156509 BRL. For the individuals_on_claim column, there are 2000 observations, and the range of values goes from 1 to 15. The mean number of individuals on each claim is 8.0495, with a standard deviation of 4.087347. For the claim_id column, there are 2000 observations, and the range of values goes from 1 to 2000. For the time_to_close column, there are also 2000 observations, and the range of values goes from 76 to 518. The mean (average) time to close is 185.568 days, with a standard deviation of 49.163 days.
 
 Wrap Up
+--
 After performing Exploritary Data Analysis drafting (creating histograms) I can assume that the data has little to no limitations for creating the plots after cleaning and validation.
 
 
