@@ -96,7 +96,9 @@ Process: First, filled in the missing values in amount_paid and replaced the mis
 ---
 ![Mean Minutes to Close - Per Location](https://user-images.githubusercontent.com/129571496/229392198-1d39dde0-8b99-417f-b65e-613d0441897a.PNG)
 
-Explanation: For this Graph I have decided to go with a Scatter plot to account for concurrently updating Data, if there is new Data the information will update with it accordingly and make it easily comparable to see any change in the data for any business changes/updates. The relationship between the time to close the claim, and the location is that SAO LUIS takes the longest time for closing a claim although they are not the Legal Team with the most claims, NATAL is the second highest, both are much larger than the other two which leads to speculation, does the reason for the long wait times have a connection between these two branches..
+Explanation : For this particular graph, I chose to utilize a scatter plot as it allows for concurrent updates of data with future implementation. This means that any new data will be reflected immediately, allowing for easy comparison and analysis of any changes that may occur in the data due to any business updates or modifications.
+The relationship between the time it takes to close a claim and the location is noteworthy. Specifically, the data show that SAO LUIS has the longest time to close a claim, despite not being the legal team with the most claims. In contrast, NATAL ranks as the second-highest in terms of time taken to close claims but is significantly larger than the other two branches.
+This raises the question of whether there is a connection between these two branches that are causing the long wait times. The significance of this relationship cannot be overstated, as it could potentially have significant implications for the operations of the business. By analyzing this data further, we can uncover potential inefficiencies that may be affecting the overall performance of the legal team.
 
 # Conclusion
 ---
